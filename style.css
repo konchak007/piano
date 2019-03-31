@@ -16,13 +16,13 @@ body{
     justify-content: center;
 }
 .container{
-   padding-top: 200px; 
-   width: 70vw;
+   padding: 150px 200px;
+   
 }
 .cell{
     background-color: white;
     height: 300px;
-    width: 7vw;
+    width: 5vw;
     border-radius: 10px;
     padding-top: 200px;    
      box-shadow: 0 0 15px rgba(253, 251, 251, 0.5);
