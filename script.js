@@ -1,4 +1,4 @@
-let boxShadow= document.getElementsByTagName('button');
+let sound= document.getElementsByTagName('audio');
 boxShadow.onclick=function () {
-    this.style.background='yellow';
+    
 }

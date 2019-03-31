@@ -16,14 +16,18 @@ body{
     justify-content: center;
 }
 .container{
-   padding: 150px 200px;
    
+   padding-top: 150px;
 }
 .cell{
     background-color: white;
     height: 300px;
     width: 5vw;
     border-radius: 10px;
-    padding-top: 200px;    
+    padding-top: 200px ;  
      box-shadow: 0 0 15px rgba(253, 251, 251, 0.5);
+}
+button:active{
+    box-shadow: 0 0 15px rgba(22, 226, 245, 0.5);
+    background-color: antiquewhite;
 }
