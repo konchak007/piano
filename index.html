@@ -9,25 +9,46 @@
     <title>Piano</title>
 </head>
 <body>
+ <body>
+          <div class="keys">
+             <button data-key="65" class="key" data-note="C">
+                <span >A</span>
+             </button >
+             <button  data-key="83" class="key" data-note="D">
+                <span >S</span>
+             </button >
+             <button data-key="68" class="key" data-note="E">
+                <span >D</span>
+             </button >
+             <button  data-key="70" class="key" data-note="F">
+                <span >F</span>
+             </button >
+             <button  data-key="71" class="key" data-note="G">
+                <span >G</span>
+             </button >
+             <button  data-key="72" class="key" data-note="A">
+                <span>H</span>
+             </button >
+             <button  data-key="74" class="key" data-note="B">
+                <span >J</span>
+             </button >
+             <button  data-key="75" class="key" data-note="C">
+                <span >K</span>
+             </button >
+          </div>
+
+          <audio data-key="65" src="sounds/1.mp3"></audio>
+          <audio data-key="83" src="sounds/2.mp3"></audio>
+          <audio data-key="68" src="sounds/3.mp3"></audio>
+          <audio data-key="70" src="sounds/4.mp3"></audio>
+          <audio data-key="71" src="sounds/5.mp3"></audio>
+          <audio data-key="72" src="sounds/6.mp3"></audio>
+          <audio data-key="74" src="sounds/7.mp3"></audio>
+          <audio data-key="75" src="sounds/8.mp3"></audio>
+          
+
     
-        <div class="container">
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/1.mp3" class="audio"></audio>
-            A</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/2.mp3" class="audio"></audio>
-           S</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/3.mp3" class="audio"></audio>
-            D</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/4.mp3" class="audio"></audio>
-           F</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/5.mp3" class="audio"></audio>
-           G</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/6.mp3" class="audio"></audio>
-           H</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/7.mp3" class="audio"></audio>
-           J</button>
-        <button class="cell"><audio src="https://raw.githubusercontent.com/badz0/piano/master/8.mp3" class="audio"></audio>
-           K</button>
-    </div>
+ 
   <script src="script.js"></script>  
 </body>
 </html>
