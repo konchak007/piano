@@ -16,11 +16,16 @@ html {
     border-radius: .4rem;
     background-color: white;
     padding-top: 230px;
-    transition: opacity .3s ease-out;
+    
 }
 .active-key{
     border: .1rem blue solid;
     width: 8%;
     height: 310px;
+    background-color: antiquewhite;
 }
-
+.key:active{
+     border: .1rem blue solid;
+     width: 8%;
+     height: 310px;
+}
