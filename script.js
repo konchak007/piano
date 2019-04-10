@@ -1,8 +1,5 @@
 document.addEventListener('keydown', playNote);
-document.addEventListener('keydown', style);
 document.addEventListener('click', playNote);
-document.addEventListener('click', style);
-
 function playNote(e) {
        let dataKey;
        if (!e.keyCode) {
@@ -16,7 +13,7 @@ function playNote(e) {
        if (!key) return;
        audio.currentTime = 0;
        audio.play();
-      
+      style(e);
 }
 
 function style(e) {
