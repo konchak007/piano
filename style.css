@@ -11,7 +11,7 @@ html {
     margin-top: 180px;
 }
 .key{
-    width: 8%;
+    width: 7%;
     height: 300px;
     border-radius: .4rem;
     background-color: white;
@@ -23,9 +23,11 @@ html {
     width: 8%;
     height: 310px;
     background-color: antiquewhite;
+    box-shadow: 0 0 10px white;
 }
 .key:active{
      border: .1rem blue solid;
      width: 8%;
      height: 310px;
+     box-shadow: 0 0 10px white;
 }
